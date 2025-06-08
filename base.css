@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+</head><link href="base.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body> body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #161616;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    max-width: 1000px;
+    margin: 30px auto;
+    width: 100%;
+}
+
     <header>
         <ul>
             <li><a href="index.html">Home</a></li>
