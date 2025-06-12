@@ -1,0 +1,25 @@
+/* Default styles */
+.works_on_smartphone {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  .works_on_smartphone {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .works_on_smartphone img {
+    max-width: 100%;
+    height: auto;
+  }
+  .works_on_smartphone .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .works_on_smartphone nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
