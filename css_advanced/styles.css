@@ -82,3 +82,48 @@ body {
 .cta:hover {
   background-color: #a550d9;
 }
+.quote {
+  background-color: #C271FF;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.quote-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  gap: 30px;
+}
+
+.quote-content img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.quote-text {
+  max-width: 700px;
+}
+
+.testimonial {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.person-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.person-title {
+  font-size: 14px;
+  font-style: italic;
+  color: #f0f0f0;
+}
