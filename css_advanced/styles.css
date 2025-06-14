@@ -166,3 +166,45 @@
   color: #ffffff;
   margin-bottom: 20px;
 }
+.footer {
+  background-color: #1a1a2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.footer-brand img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.footer-brand span {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.footer-social a {
+  margin-left: 10px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-copyright {
+  font-size: 0.8em;
+  color: #cccccc;
+  margin-top: 10px;
+}
