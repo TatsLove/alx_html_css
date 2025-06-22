@@ -1,0 +1,62 @@
+.what-we-do {
+  padding: 4rem 2rem;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.service {
+  max-width: 250px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.service i.icon {
+  font-size: 3rem;
+  color: #0070f3; /* or your brand color */
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service p {
+  font-size: 1rem;
+  color: #555;
+}
+@font-face {
+  font-family: 'holberton-icons';
+  src: url('fonts/holberton-icons.woff2') format('woff2'),
+       url('fonts/holberton-icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'holberton-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
